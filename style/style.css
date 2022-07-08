@@ -1,10 +1,10 @@
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     font-size: 16px;
     font-weight: normal;
-}
+} */
 
 .header, .footer { 
     background-color: rgba(255, 113, 67, 0.27);
@@ -20,6 +20,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.about_flex{
+    margin: 104px auto 85px;
 }
 
 .nav_li {
@@ -62,9 +66,7 @@
     transition: 500ms;
 }
 
-.about_flex{
-    margin: 104px auto 85px;
-}
+
 
 .about_title {
     font-weight: 700;
